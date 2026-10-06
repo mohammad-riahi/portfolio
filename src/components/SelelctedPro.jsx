@@ -1,4 +1,4 @@
-import ProjectCards from "./Projectcards";
+import ProjectCards from "../components/ProjectCards";
 import { projectsDetails } from "../constant/projects";
 import styles from "../styles/SelectedPro.module.css";
 
