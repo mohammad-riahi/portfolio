@@ -20,7 +20,10 @@ function MainSection({ projectScrollHandler }) {
         </button>
         {/* social media section */}
         <div className={styles.socials}>
-          <a href="https://github.com/xshotxm" className={styles.full_github}>
+          <a
+            href="https://github.com/mohammad-riahi"
+            className={styles.full_github}
+          >
             Github
             <FontAwesomeIcon icon={faGithub} />
           </a>
