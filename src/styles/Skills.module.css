@@ -1,0 +1,75 @@
+.container {
+  max-width: 60%;
+  min-height: 65vh;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.title {
+  scroll-margin-top: 100px;
+  color: azure;
+}
+
+hr {
+  height: 2px;
+  opacity: 1;
+  margin-top: 3px;
+}
+
+.skill_titiles {
+  color: #31a7dd;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.right_side {
+  margin-right: 10rem;
+}
+
+/*----------skills--------- */
+
+.front_skills {
+  display: grid;
+  grid-template-columns: 150px 150px;
+  margin-top: 10px;
+}
+
+.front_skills p {
+  border: 2px solid gray;
+  border-radius: 5px;
+  width: fit-content;
+  padding: 5px;
+  margin: 3px;
+}
+
+.other_skills {
+  display: grid;
+  grid-template-columns: 150px 150px;
+  margin-top: 10px;
+}
+
+.other_skills p {
+  border: 2px solid gray;
+  border-radius: 5px;
+  width: fit-content;
+  padding: 5px;
+  margin: 3px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 85%;
+  }
+  .skill_titiles {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .right_side {
+    margin-top: 30px;
+  }
+}

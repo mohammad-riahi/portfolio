@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  min-height: 100vh;
+  max-width: 60%;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.container h1 {
+  scroll-margin-top: 100px;
+  margin-bottom: 5rem;
+  color: #f0f0f0;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    margin-left: 20px;
+  }
+}

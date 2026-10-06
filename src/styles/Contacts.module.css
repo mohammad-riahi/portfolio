@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  min-height: 100vh;
+  margin: auto;
+  color: gray;
+}
+
+.container a {
+  text-decoration: none;
+  color: gray;
+}
+
+.container h1 {
+  margin: 3rem 0;
+  color: #f0f0f0;
+  scroll-margin-top: 100px;
+}
+
+.contactDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 3rem;
+}
+
+.contactDetails p {
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    margin-left: 20px;
+  }
+}
